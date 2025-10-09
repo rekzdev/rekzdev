@@ -1,0 +1,43 @@
+name: Update "Last updated" stamp
+
+on:
+  schedule:
+    # Runs daily at 10:00 AM America/Chicago during CDT (15:00 UTC).
+    # Good enough for DST; the written time below is always America/Chicago.
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build timestamp (America/Chicago)
+        id: ts
+        run: |
+          STAMP="$(TZ=America/Chicago date '+%B %e, %Y • %I:%M %p %Z' | sed 's/  / /g')"
+          echo "STAMP=$STAMP" >> $GITHUB_OUTPUT
+
+      - name: Update README between markers
+        run: |
+          # Replace everything between <!--LAST_UPDATED--> … <!--/LAST_UPDATED-->
+          perl -0777 -pe "s/<!--LAST_UPDATED-->.*?<!--\\/LAST_UPDATED-->/<!--LAST_UPDATED-->${{ steps.ts.outputs.STAMP }}<!--\\/LAST_UPDATED-->/s" \
+            README.md > README.md.tmp
+          mv README.md.tmp README.md
+
+      - name: Commit only if changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(readme): refresh Last updated → ${{ steps.ts.outputs.STAMP }}"
+          git push
