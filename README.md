@@ -66,11 +66,6 @@ I design self-contained automation stacks using:
 
 > “Automate everything. Audit nothing manually twice.”
 
----
-
-### 📬 Connect
-🌐 [rekz.dev](https://rekz.dev)  
-🌐 [rainwzd.com](https://rainwzd.com)  
 
 ---
 
