@@ -83,7 +83,7 @@ I design self-contained automation stacks using:
 
 ---
 
-_Last updated:_ <!--LAST_UPDATED-->December 2, 2025 • 09:29 AM CST<!--/LAST_UPDATED-->
+_Last updated:_ <!--LAST_UPDATED-->December 3, 2025 • 09:29 AM CST<!--/LAST_UPDATED-->
 
 ---
 
