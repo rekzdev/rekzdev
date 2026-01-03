@@ -88,5 +88,5 @@ _Last updated:_ <!--LAST_UPDATED-->January 3, 2026 • 09:25 AM CST<!--/LAST_UPD
 ---
 
 <p align="center">
-  <sub>RainWzd Design LLC / Rekz Dev • Data Systems, Automation & Analytics • © 2025</sub>
+  <sub>RainWzd Design LLC / Rekz Dev • Data Systems, Automation & Analytics • © 2026</sub>
 </p>
