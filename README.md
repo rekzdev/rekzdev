@@ -48,8 +48,11 @@
 </p>
 
 **Languages:** Python · SQL · PowerShell · JavaScript
+
 **Databases:** Azure SQL · PostgreSQL · TimescaleDB
+
 **Automation & Tools:** n8n · Docker · Caddy · Playwright · Redis
+
 **Spatial & BI:** ArcGIS · QGIS · Power BI · Plotly / Dash
 
 ---
@@ -97,7 +100,7 @@ Self-contained automation stacks built for real operational environments:
 
 ---
 
-_Last updated: <!--LAST_UPDATED-->March 15, 2026 • 10:34 AM CDT<!--/LAST_UPDATED-->
+*Last updated:* <!--LAST_UPDATED-->March 15, 2026 • 10:34 AM CDT<!--/LAST_UPDATED-->
 
 <p align="center">
   <sub>RainWzd Design LLC / RekzDev · Data Systems, Automation & Analytics · © 2026</sub>
