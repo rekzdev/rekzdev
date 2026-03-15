@@ -1,22 +1,33 @@
-# 👋 Hi, I'm RekzDev 
-### RainWzd Design / RekzDev ☁️ Automation & Analytics
+# 👋 Hi, I'm RekzDev
+### RainWzd Design / RekzDev ☁️ Automation, Analytics & Systems Design
 
-> I build automation systems that turn complex data into actionable intelligence.  
-> Focused on water systems, aviation analytics, and large-scale automation pipelines.
+> I build infrastructure that turns operational data into decisions —
+> spanning utility systems, aviation analytics, and enterprise automation pipelines.
+>
+> RainWzd handles the design. RekzDev handles the systems. Both brands, one stack.
 
 ---
 
 ### 🌦️ What I Build
-- **(Private) Water Meter Data System (WMDS)**  
-  End-to-end Azure SQL + Azure ADF + Python + PowerShell billing automation  
-  Includes utility AMI data ingest, automated occupancy sync, fiscal rate management, and anomaly detection.
 
-- **Major Airline Travel Waiver Automation**  
-  Python + Postgres + Social Media pipelines for real-time travel waiver alerts  
-  Includes dynamic airport mapping, classification logic, and intelligent change tracking.
+- **Utility Infrastructure Automation**
+  End-to-end billing pipeline on Azure with AMI data ingest, occupancy sync,
+  fiscal rate management, and anomaly detection.
+  `Python` `Azure SQL` `ADF` `PowerShell`
 
-- **OTP Flight Performance Dashboard**  
-  TimescaleDB + Dash app analyzing 54M+ flight records for route-level delay insights.  
+- **Airline Travel Waiver Automation**
+  Real-time waiver alert pipeline with dynamic airport mapping, NLP classification,
+  and intelligent change tracking.
+  `Python` `Postgres`
+
+- **OTP Flight Performance Dashboard**
+  TimescaleDB + Dash app analyzing 54M+ flight records for route-level delay
+  insights and airline KPI visualization.
+
+- **GIS & Spatial Data Systems**
+  Infrastructure mapping, spatial analysis, and data integration for government
+  and utility clients.
+  `ArcGIS` `QGIS` `Python`
 
 *(All repositories are private due to data sensitivity and client ownership agreements.)*
 
@@ -25,47 +36,52 @@
 ### ⚙️ Tech Stack
 
 <p align="center">
-  <!-- Languages -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="40" height="40" alt="PowerShell"/>
-
-  <!-- Databases -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="Postgres"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="40" height="40" alt="SQL Server"/>
-
-  <!-- Cloud / Tools -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40" alt="Azure"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="40" height="40" alt="Redis"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub"/>
 </p>
 
-**Languages:** Python • SQL • PowerShell • JavaScript  
-**Databases:** Azure SQL • Postgres • TimescaleDB  
-**Automation & Tools:** n8n • Docker • Caddy • Playwright • Redis  
+**Languages:** Python · SQL · PowerShell · JavaScript
+**Databases:** Azure SQL · PostgreSQL · TimescaleDB
+**Automation & Tools:** n8n · Docker · Caddy · Playwright · Redis
+**Spatial & BI:** ArcGIS · QGIS · Power BI · Plotly / Dash
 
 ---
 
 ### 🧭 Now
-- Finalizing **FY2026 billing automation** in WMDS  
-- Enhancing **Airline Travel Waiver** classification logic for dynamic airport expansion  
-- Rebuilding **OTP Dash** theme for readability and better airline KPI visualization  
-- Deploying next-gen ET modeling pipeline (Open-Meteo + NASA POWER)
+
+- Finalizing **billing cycle automation** pipeline for upcoming fiscal year
+- Expanding **airline waiver classification** for dynamic airport growth
+- Rebuilding **OTP Dash** with improved airline KPI layout and readability
+- Deploying **ET modeling pipeline** with Open-Meteo + NASA POWER integration
 
 ---
 
 ### 🧰 Environment & Philosophy
 
-I design self-contained automation stacks using:  
-- **Docker + Portainer** for reproducible infrastructure  
-- **Postgres + Timescale** for scalable analytics  
-- **n8n** for flow-based orchestration  
-- **Dash / Plotly** for clean, data-rich visualization  
-- **Caddy** for fast, secure reverse proxy deployment  
+Self-contained automation stacks built for real operational environments:
 
-> “Automate everything. Audit nothing manually twice.”
+- **Docker + Portainer** — reproducible infrastructure
+- **Postgres + Timescale** — scalable analytics
+- **n8n** — flow-based orchestration
+- **Dash / Plotly** — clean, data-rich visualization
+- **Caddy** — fast, secure reverse proxy deployment
 
+> "Automate everything. Audit nothing manually twice."
+
+---
+
+### 🎖️ Credentials
+
+![CIC](https://img.shields.io/badge/CIC-Certified-0052CC?style=flat-square)
+![HPT](https://img.shields.io/badge/HPT-Certified-0052CC?style=flat-square)
+![EPA-WSP](https://img.shields.io/badge/EPA--WSP-Certified-0052CC?style=flat-square)
 
 ---
 
@@ -75,18 +91,14 @@ I design self-contained automation stacks using:
   <img src="https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure"/>
   <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker"/>
   <img src="https://img.shields.io/badge/n8n-Automation-EA4C89?logo=n8n"/>
-  <img src="https://img.shields.io/badge/TimescaleDB-Analytics-000000?logo=timescaledb"/>
+  <img src="https://img.shields.io/badge/TimescaleDB-Analytics-000000"/>
   <img src="https://img.shields.io/badge/Status-Automating-success?style=flat-square&color=green"/>
 </p>
 
 ---
 
----
-
-_Last updated:_ <!--LAST_UPDATED-->March 15, 2026 • 10:34 AM CDT<!--/LAST_UPDATED-->
-
----
+_Last updated: <!--LAST_UPDATED-->March 15, 2026 • 10:34 AM CDT<!--/LAST_UPDATED-->
 
 <p align="center">
-  <sub>RainWzd Design LLC / Rekz Dev • Data Systems, Automation & Analytics • © 2026</sub>
+  <sub>RainWzd Design LLC / RekzDev · Data Systems, Automation & Analytics · © 2026</sub>
 </p>
