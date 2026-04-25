@@ -1,68 +1,87 @@
 # 👋 Hi, I'm RekzDev
-### RainWzd Design / RekzDev ☁️ Automation, Analytics & Systems Design
 
-> I build infrastructure that turns operational data into decisions —
-> spanning utility systems, aviation analytics, and enterprise automation pipelines.
+### RainWzd Design · RekzDev ☁️ — Data Systems, Automation & Analytics  
+<sub>Building production data systems for real-world operations — aviation, utilities, and infrastructure</sub>
+
+> I design and deploy data pipelines, automation systems, and analytics platforms that turn operational data into decisions.
 >
-> RainWzd handles the design. RekzDev handles the systems. Both brands, one stack.
+> Experience spans airport operations, utility infrastructure (AMI/AMR), geospatial systems, and enterprise automation.
+>
+> RainWzd handles design. RekzDev handles systems. One stack, real-world problems.
+
+**Open to roles** — data engineering, cloud/infra, analytics systems, or geospatial  
+<sub>Particularly interested in aviation, utilities, and infrastructure-heavy environments</sub>
 
 ---
 
 ### 🌦️ What I Build
 
+- **TSA & Airport Ground Operations Analytics**
+  Real-time wait time ingestion pipeline with 10-minute polling, Cloudflare Workers + Hyperdrive
+  data layer, and a Next.js 15 dashboard with ECharts visualization and per-terminal callouts.
+  `Next.js` `Cloudflare Pages` `Cloudflare Workers` `Hyperdrive` `PostgreSQL` `n8n` `ECharts`
+
 - **Utility Infrastructure Automation**
   End-to-end billing pipeline on Azure with AMI data ingest, occupancy sync,
-  fiscal rate management, and anomaly detection.
+  fiscal rate management, and anomaly detection across 900+ metered endpoints.
   `Python` `Azure SQL` `ADF` `PowerShell`
 
 - **Airline Travel Waiver Automation**
   Real-time waiver alert pipeline with dynamic airport mapping, NLP classification,
   and intelligent change tracking.
-  `Python` `Postgres`
+  `Python` `PostgreSQL` `n8n`
 
 - **OTP Flight Performance Dashboard**
   TimescaleDB + Dash app analyzing 54M+ flight records for route-level delay
   insights and airline KPI visualization.
+  `Python` `TimescaleDB` `Dash` `Plotly`
 
 - **GIS & Spatial Data Systems**
   Infrastructure mapping, spatial analysis, and data integration for government
-  and utility clients.
-  `ArcGIS` `QGIS` `Python`
+  and utility clients. Web-based map delivery via Mapbox GL JS.
+  `ArcGIS` `QGIS` `Mapbox` `Python`
 
-*(All repositories are private due to data sensitivity and client ownership agreements.)*
+<sub>Private portfolio available upon request (client-restricted work)</sub>
 
 ---
 
 ### ⚙️ Tech Stack
 
+<p align="center"><sub>Primary stack I build and deploy with</sub></p>
+
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="40" height="40" alt="PowerShell"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="Postgres"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="40" height="40" alt="SQL Server"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40" alt="Azure"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="40" height="40" alt="Redis"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub"/>
+  <img src="https://skillicons.dev/icons?i=py,js,ts,powershell,r,fastapi,nextjs,tailwind,postgres,redis&theme=dark&perline=10" />
 </p>
 
-**Languages:** Python · SQL · PowerShell · JavaScript
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=azure,aws,docker,cloudflare,github,visualstudio,figma,autocad&theme=dark&perline=10" />
+</p>
 
-**Databases:** Azure SQL · PostgreSQL · TimescaleDB
+---
 
-**Automation & Tools:** n8n · Docker · Caddy · Playwright · Redis
+**Languages:** Python · SQL · PowerShell · JavaScript / TypeScript
 
-**Spatial & BI:** ArcGIS · QGIS · Power BI · Plotly / Dash
+**Databases:** PostgreSQL · TimescaleDB · Azure SQL
+
+**Cloud & Edge:** Azure · Cloudflare Pages · Cloudflare Workers · Hyperdrive
+
+**Automation & Orchestration:** n8n · Docker · Caddy · Playwright · Redis
+
+**APIs & Frameworks:** FastAPI · Next.js 15 · TanStack Query
+
+**Visualization & BI:** Apache ECharts · Plotly / Dash · Power BI
+
+**Geospatial:** ArcGIS · QGIS · Mapbox GL JS
 
 ---
 
 ### 🧭 Now
 
-- Finalizing **billing cycle automation** pipeline for upcoming fiscal year
-- Expanding **airline waiver classification** for dynamic airport growth
-- Rebuilding **OTP Dash** with improved airline KPI layout and readability
-- Deploying **ET modeling pipeline** with Open-Meteo + NASA POWER integration
+- Deployed **TSA Wait Times dashboard** — live checkpoint data via Cloudflare edge
+- Expanding **airline waiver classification** with dynamic airport coverage
+- Rebuilding **OTP Dash** with improved KPI and route-level clarity
+- Deploying **ET modeling pipeline** (Open-Meteo + NASA POWER)
+- **Open to roles** in data engineering, automation, and geospatial systems
 
 ---
 
@@ -71,32 +90,25 @@
 Self-contained automation stacks built for real operational environments:
 
 - **Docker + Portainer** — reproducible infrastructure
-- **Postgres + Timescale** — scalable analytics
-- **n8n** — flow-based orchestration
-- **Dash / Plotly** — clean, data-rich visualization
+- **PostgreSQL + TimescaleDB** — scalable time-series analytics
+- **n8n** — flow-based orchestration with audit trails
+- **Cloudflare Workers + Hyperdrive** — low-latency edge data access
+- **Dash / Plotly + ECharts** — clean, data-rich visualization
 - **Caddy** — fast, secure reverse proxy deployment
 
 > "Automate everything. Audit nothing manually twice."
 
 ---
 
-### 🎖️ Credentials
-
-![CIC](https://img.shields.io/badge/CIC-Certified-0052CC?style=flat-square)
-![HPT](https://img.shields.io/badge/HPT-Certified-0052CC?style=flat-square)
-![EPA-WSP](https://img.shields.io/badge/EPA--WSP-Certified-0052CC?style=flat-square)
+📬 contactme@rekz.dev
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql"/>
-  <img src="https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure"/>
-  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker"/>
-  <img src="https://img.shields.io/badge/n8n-Automation-EA4C89?logo=n8n"/>
-  <img src="https://img.shields.io/badge/TimescaleDB-Analytics-000000"/>
-  <img src="https://img.shields.io/badge/Status-Automating-success?style=flat-square&color=green"/>
-</p>
+### 🎖️ Credentials
+
+![CIC](https://img.shields.io/badge/CIC-Certified_Irrigation_Contractor-0052CC?style=flat-square)
+![HPT](https://img.shields.io/badge/HPT-Hunter_Product_Technician-0052CC?style=flat-square)
+![EPA-WSP](https://img.shields.io/badge/EPA--WSP-Water_Sense_Partner-0052CC?style=flat-square)
 
 ---
 
