@@ -5,8 +5,9 @@
 > spanning utility systems, aviation analytics, geospatial pipelines, and enterprise automation.
 >
 > RainWzd handles the design. RekzDev handles the systems. Both brands, one stack.
->
-> **Open to new roles** — data engineering, analytics infrastructure, automation systems, or geospatial work.
+
+**Open to roles** — data engineering, cloud/infra, analytics infrastructure, automation systems, or geospatial work 
+<sub>Particularly interested in aviation, utilities, and infrastructure-heavy environments</sub>
 
 ---
 
@@ -19,9 +20,9 @@
 
 - **Utility Infrastructure Automation & ML Analytics**
   End-to-end billing pipeline on Azure with AMI data ingest, occupancy sync, and fiscal rate
-  management across 900+ metered endpoints. Layered ML anomaly detection system using a
+  management across 1,000+ metered endpoints. Layered ML anomaly detection system using a
   Prophet + Isolation Forest + XGBoost ensemble with domain-specific seasonality modeling,
-  predictive maintenance scoring, and multi-window degradation analysis (30/90/180/365-day).
+  predictive maintenance scoring, and multi-window degradation analysis (5/10/15/30/90/180/365-day).
   Financial impact quantification and automated maintenance ROI analysis included.
   `Python` `Azure SQL` `ADF` `PowerShell` `Prophet` `XGBoost` `scikit-learn`
 
