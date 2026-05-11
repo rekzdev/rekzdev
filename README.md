@@ -7,6 +7,7 @@
 > RainWzd handles the design. RekzDev handles the systems. Both brands, one stack.
 
 **Open to roles** — data engineering, cloud/infra, analytics infrastructure, automation systems, or geospatial work 
+
 <sub>Particularly interested in aviation, utilities, and infrastructure-heavy environments</sub>
 
 ---
