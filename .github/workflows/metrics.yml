@@ -42,9 +42,8 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_threshold: 1%
-          plugin_languages_other: yes
-          plugin_languages_ignored: >-
-            html, css, dockerfile, makefile, shell, tex, less, cmake
+          plugin_languages_other: no
+          plugin_languages_ignored: batchfile, vbscript
 
           # ---- troubleshooting ----
           # debug: yes
